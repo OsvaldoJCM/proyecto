@@ -1,0 +1,40 @@
+form {
+    margin: 0 90px 10px;
+}
+
+.btnFormulario {
+    background-color: $secondaryColor;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: $mainColor;
+}
+
+input[type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid $tercerColor;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.contacto {
+    position: fixed;
+    width: 70px;
+    bottom: 50px;
+    right: 50px;
+}

@@ -1,0 +1,43 @@
+/* PRODUCTOS */
+
+
+.contenedor {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.contenedorProductos {
+    margin: 20px;
+    width: 20%;
+    border: 4px solid #63666a;
+    border-radius: 10px;
+    background-color: #63666a;
+
+    h3 {
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+}
+
+.card-img-top {
+    display: block;
+    object-fit: cover;
+    height: auto;
+}
+
+@media (min-width: 800px) {
+    .col-sm-4 {
+        flex: 0 0 auto;
+        width: 33%;
+    }
+}
+
+.btnCotizar {
+    @include boton;
+}

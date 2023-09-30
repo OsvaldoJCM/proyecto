@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+p {
+  margin-top: 20px;
+  color: #00559f;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 20px 0px;
+  color: #00559f;
+}
+
+.contenedorInicio {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 20px;
+}
+.contenedorInicio iframe {
+  width: 80%;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.quienesSomos {
+  margin: 20px;
+}
+.quienesSomos .misionVision {
+  text-align: center;
+}
+.quienesSomos .misionVision h3 {
+  color: #00559f;
+}
+.quienesSomos .imgEmpresa {
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: #00559f;
+}
+footer ul {
+  margin-bottom: 10px;
+}
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  background-color: #00559f;
+  width: 100%;
+}
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.logo {
+  width: 250px;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+@media (max-width: 900px) and (min-width: 400px) {
+  .logo {
+    width: 150px;
+  }
+}
+/* PRODUCTOS */
+.contenedor {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.contenedorProductos {
+  margin: 20px;
+  width: 20%;
+  border: 4px solid #63666a;
+  border-radius: 10px;
+  background-color: #63666a;
+}
+.contenedorProductos h3 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.card-img-top {
+  display: block;
+  object-fit: cover;
+  height: auto;
+}
+
+@media (min-width: 800px) {
+  .col-sm-4 {
+    flex: 0 0 auto;
+    width: 33%;
+  }
+}
+.btnCotizar {
+  background-color: #569ead;
+  color: whitesmoke;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+/* PROYECTOS */
+.contenedorProyectos {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.proyecto {
+  display: flex;
+  margin: 20px;
+  border: 4px solid #c8cbce;
+  border-radius: 10px;
+  background-color: #c8cbce;
+}
+.proyecto .imgProyecto {
+  width: 50%;
+}
+
+.textoProyecto {
+  margin: 20px;
+}
+.textoProyecto p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.textoProyecto .btnVerMas {
+  background-color: #569ead;
+  color: whitesmoke;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+form {
+  margin: 0 90px 10px;
+}
+
+.btnFormulario {
+  background-color: #438ec0;
+  color: whitesmoke;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #00559f;
+}
+
+input[type=text],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #569ead;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contacto {
+  position: fixed;
+  width: 70px;
+  bottom: 50px;
+  right: 50px;
+}
+
+/*# sourceMappingURL=main.css.map */

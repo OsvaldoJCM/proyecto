@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    font-family: $mainFont;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+p {
+    margin-top: 20px;
+    color: $mainColor;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 20px 0px;
+    color: $mainColor;
+}
+
+.contenedorInicio {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px;
+
+    iframe {
+        width: 80%;
+    }
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+.carousel-item {
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@mixin boton {
+
+    background-color: $tercerColor;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+}
